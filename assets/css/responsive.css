@@ -1,6 +1,6 @@
 /* pc */
 @media (min-width: 1024px){
-    #band {
+    .content-section {
         width: 800px;
         margin: 0 auto;
     }
@@ -14,9 +14,10 @@
 
 /* tablet */
 @media (min-width: 740px) and (max-width:1023px){
-        #band {
+        .content-section {
             width: 800px;
-            margin: 0 auto;
+            margin-left: 0;
+            margin-right: 0;
         }  
 }
 
